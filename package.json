@@ -1,0 +1,45 @@
+{
+  "name": "really-whips",
+  "displayName": "really-whips",
+  "description": "VSCode extension with tiny wrapper to interact with the Alpaca language model. It really whips the LLaMA's ass!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "really-whips.hitLlama",
+        "title": "Hit LLaMA with selected prompt"
+      },
+      {
+        "command": "really-whips.installAlpaca",
+        "title": "Install Alpaca 🦙"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.77.0",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.36.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.15.2"
+  }
+}
