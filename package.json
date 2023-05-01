@@ -4,7 +4,7 @@
   "displayName": "really-whips",
   "icon": "logo.png",
   "description": "VSCode extension with a tiny wrapper to interact with the Alpaca language model. It really whips the LLaMA's ass!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "github:codealchemist/really-whips",
   "engines": {
     "vscode": "^1.77.0"
