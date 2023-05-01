@@ -1,5 +1,6 @@
 {
   "name": "really-whips",
+  "publisher": "AlbertoMiranda",
   "displayName": "really-whips",
   "description": "VSCode extension with a tiny wrapper to interact with the Alpaca language model. It really whips the LLaMA's ass!",
   "version": "1.0.0",
